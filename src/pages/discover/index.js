@@ -1,9 +1,14 @@
 import React, { memo } from 'react';
+import { Outlet } from 'react-router-dom';
+import { HeaderCategory } from './style'
+
+import AppNavBar from '../../components/nav-bar'
 
 export default memo(function Discover() {
   return (
-    <div>
-      <h2>发现音乐</h2>
-    </div>
+    <HeaderCategory>
+      <AppNavBar />
+      <Outlet/>
+    </HeaderCategory>
   )
 })

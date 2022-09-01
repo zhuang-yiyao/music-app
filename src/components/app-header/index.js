@@ -35,7 +35,7 @@ export default memo(function AppHeader() {
         <div className='content'>
           <HeaderLeft>
             <h1>
-              <a href="#/" className="logo sprite_01">
+              <a href="/#" className="logo sprite_01">
                 网易云音乐
               </a>
             </h1>
@@ -58,7 +58,6 @@ export default memo(function AppHeader() {
             <a href='www.baidu.com'>登录</a>
           </HeaderRight>
         </div>
-        <div className='divider'></div>
       </HeaderWrapper>
     </div>
   )

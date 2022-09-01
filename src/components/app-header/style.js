@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
-  height: 75px;
+  height: 70px;
   background-color: #242424;
-
   .content {
     height: 70px;
     width: 1100px;
@@ -12,10 +11,6 @@ export const HeaderWrapper = styled.div`
     justify-content: space-between;
   }
 
-  .divider {
-    height: 5px;
-    background-color: #C20C0C;
-  }
 `
 
 export const HeaderLeft = styled.div`
